@@ -1,0 +1,27 @@
+name: quizapp
+description: Quiz - App
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.0.0
+  http: ^0.13.1
+  fluttertoast: ^8.0.6
+  shared_preferences: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/database/
+  
+  uses-material-design: true
+
